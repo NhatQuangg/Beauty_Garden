@@ -1,0 +1,197 @@
+@@ -0,0 +1,196 @@
+:root {
+    --bracum: #333;
+    --gray-list: #666;
+    --gray-extra: #ccc;
+    --gray-border: #eee;
+    --green-price :#199427;
+    --gray-btn: #d0cccc;
+    --blue-top: #0366d6;
+    --green-main: #1f601f;
+    --orange-btn: #f36f36;
+}
+
+
+.row-titles {
+    display: flex;
+}
+
+.row-titles .row-left {
+    flex: 66.67%;
+    padding-right: 15px;
+}
+
+.row-titles .row-right {
+    flex: 33.33%;
+    padding-left: 15px;
+
+}
+
+.row-left .title {
+    display: flex;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #e1e1e1;
+    margin: 0;
+}
+
+.title .title-1 {
+    flex: 50%;
+    height: 31px;
+    padding-right: 15px;
+}
+.title .title-2 {
+    flex: 16.67%;
+    padding: 0 15px;
+}
+.title .title-3 {
+    flex: 16.67%;
+}
+.title .title-4 {
+    flex: 16.67%;
+}
+
+.cart-index {
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 9px;
+    display: inline-block;
+    height: 31px;
+}
+
+.title h5 {
+    line-height: 20px;
+    font-size: 12px;
+    color: #888;
+    margin: 10px 0 0;
+}
+/* ------------------- */
+
+.shopping-cart-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #dcdada;
+}
+
+.row-cart-item {
+    display: flex;
+}
+
+.img-thumnail {
+    flex: 16.67%;
+}
+
+.cart-title {
+    flex: 33.33%;
+}
+
+.left-price {
+    flex: 16.67%;
+}
+
+.quantity {
+    flex: 16.67%;
+}
+
+.total {
+    flex: 16.67%;    
+}
+
+.cart-title,
+.left-price,
+.quantity,
+.total {
+    padding: 0 15px;
+}
+
+.img-thumnail {
+    padding: 0 15px 0 0;
+}
+
+.img-thumnail .image img {
+    display: inline-block;
+    border: 1px solid #dedede;
+    max-width: 100%;
+    height: auto;
+}
+
+.cart-title .name {
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 19px;
+}
+
+.name a {
+    color: #000;
+    font-size: 14px;
+}
+
+.quantity input {
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid var(--gray-extra);
+    padding: 5px 15px;
+    padding-right: 0;
+}
+
+/* ------------------------ */
+
+.row-right .fee {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.panel-body {
+    font-size: 12px;
+    padding: 15px;
+    border: 1px solid var(--gray-border);
+}
+
+.list-info-price {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.list-info-price b {
+    font-weight: 400;
+}
+
+.list-info-price span {
+    color: var(--green-price);
+    float: right;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.total2 {
+    border-top: 2px solid #e54d42;
+    padding-top: 12px;
+    margin-bottom: 8px;
+    line-height: 19px;
+}
+
+.total2 span {
+    color: #ee2347;
+    font-size: 19px;
+    float: right;
+}
+
+.txt-small {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.btn-buy {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--green-main);
+    background: var(--green-main);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-buy:hover {
+    background: var(--green-price);
+}

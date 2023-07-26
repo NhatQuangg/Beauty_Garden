@@ -1,0 +1,297 @@
+@@ -0,0 +1,296 @@
+
+:root {
+    --green-main: #1f601f;
+    --red-main: #f00;
+    --gray-main: #eee;
+    --green-extra: #4ca215;
+    --green-price: #199427;
+    --green-list: #459429;
+    --orange-hover: #f46200;
+    --gray-slick: #a3a3a3;
+    --gray-list: #383838;
+}
+
+
+.thanh-toan {
+    padding: 40px 0;
+}
+
+.payment-order {
+    display: flex;
+}
+
+.payment-left {
+    flex: 58.33%;
+    padding-right: 15px;
+}
+
+.payment-right {
+    flex: 41.67%;
+    padding-left: 15px;
+
+}
+
+.payment-left .h2-fiead {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.form-flex {
+    display: flex;
+}
+
+.form-flex-group {
+    margin-bottom: 16px;
+}
+
+.form-flex .label-form {
+    flex: 25%;
+    text-align: right;
+    font-size: 14px;
+
+    padding-top: calc(0.375rem + 1px);
+    padding-bottom: calc(0.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+    padding-right: 15px;
+}
+
+.form-flex .div-form {
+    flex: 75%;
+    padding-left: 15px;
+
+    
+}
+
+.div-form input,
+.div-form select,
+.div-form textarea  {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: 14px;
+    outline: none;
+}
+
+.div-form select {
+    /* outline: none; */
+}
+
+.div-form textarea {
+    font-family: 'Poppins', sans-serif;
+    height: 60px;
+
+}
+
+.form-flex .flex-check {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.form-flex p {
+    margin-left: 10px;
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+.form-flex p a {
+    color: #0366d6;
+}
+
+.form-flex p a:hover {
+    color: var(--green-price);
+    text-decoration: underline;
+}
+
+.btn-1 {
+    flex: 50%;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.btn-2 {
+    flex: 50%;
+    text-align: end;
+}
+
+.btn-1 a {
+    color: var(--gray-list);
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #f8f9fa;;
+}
+
+.btn-1 a:hover {
+    background-color: var(--gray-main);
+}
+
+.btn-2 button {
+    background-color: var(--green-price);
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 6px 12px;
+    color: #fff;
+    border: none;
+}
+
+.btn-2 button:hover {
+    background-color: var(--green-extra);
+}
+
+/* -------------------------------- */
+
+.payment-right .order {
+    padding: 10px;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+}
+
+.order .title-secres {
+    text-transform: uppercase;
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 400;
+    color: #202020;
+    margin: 0 0 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.order .title-secres::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 1;
+    margin-left: 10px;
+    border-bottom: 1px solid;
+    opacity: .13;
+}
+
+.order .list-unstyled {
+    list-style: none;
+}
+
+.order .list-unstyled li {
+    position: relative;
+    border-bottom: 1px dashed #dfdfdf;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.list-unstyled li figure {
+    float: left;
+    width: 68px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.list-unstyled figure a {
+    display: inline-block;
+}
+
+.list-unstyled figure img {
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.list_content {
+    width: calc(100% - 90px);
+    display: inline-block;
+}
+
+.list_content h5 {
+    margin-bottom: 10px;
+}
+
+.list_content h5 a{
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;    
+}
+
+.list_content a:hover {
+    text-decoration: underline;
+}
+
+.quantity-item {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount .money {
+    color: var(--green-price);
+    font-size: 14px;
+}
+
+.amount .money-goc {
+    text-decoration: line-through;
+    font-size: 12px;
+    padding-left: 12px;
+}
+
+.money span:first-child {
+    color: #000;
+}
+
+.quantity-item .tongsp {
+    color: var(--green-price);
+}
+
+/* ------------------ */
+
+.box-coupon p {
+    font-size: 14px;
+    margin-bottom: 9px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-coupon span {
+    color: green;
+    font-weight: 600;
+    text-align: end;
+}
+
+.subtotal {
+    width: 100%;
+    padding: 22px 0;
+    border-top: 2px solid #e54d42;
+    font-size: 17px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtotal strong {
+    color: #e54d42;
+}
+
+.note {
+    text-align: right;
+    color: #6d6d6d;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.note span {
+    display: block;
+}
