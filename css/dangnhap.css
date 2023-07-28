@@ -1,0 +1,151 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    display: none;
+}
+
+.modal.open {
+    display: flex;
+}
+
+.modal__container {
+    background: #fff;
+    width: 538px;
+    max-width: calc(100% - 32px);
+    min-height: 406px;
+    text-align: center;
+    border-radius: 20px;
+    animation: modalFadeIn ease 0.7s;
+    position: relative;
+}
+
+.modal__close {
+    position: absolute;
+    right: 0; 
+    top: 0; 
+    padding: 15px;
+    font-size: 20px;
+}
+
+.modal__close:hover {
+    background-color: #e2e2e2;
+    border-radius: 0 20px 0;
+}
+
+.modal__header .title__header {
+    font-size: 24px;
+    height: 70px;
+    font-weight: 700;
+    margin-top: 60px;
+    color: #1f601f;
+    text-transform: uppercase;
+}
+
+.modal__header .text__header {
+    font-size: 14px;
+    height: 40px;
+}
+
+.modal__body {
+    padding: 0 30px;
+}
+
+.input {
+    display: block;
+}
+
+.input {
+    text-align: left;
+}
+
+.input-last {
+    margin-top: 12px;
+}
+
+.area__code {
+    font-size: 16px;
+}
+
+.modal__input {
+    font-size: 16px;
+    border: 1px solid #1a6fb7;
+    border-radius: 4px;
+    width: 100%;
+    padding: 15px;
+}
+
+
+.modal__input {
+    margin: 8px 0;
+}
+
+#btn__next {
+    margin-top: 15px;
+    font-size: 16px;
+    border: 1px solid #1f601f;
+    background-color: #1f601f;
+    color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    padding: 15px;
+    margin: 25px 0;
+}
+
+.modal__footer {
+    padding: 0 56px;
+}
+
+.modal__infor {
+    font-size: 15px;
+}
+
+
+/* Tắt mũi tên lên xuống của thẻ input  */
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+
+/* keyframe: tạo ra các chuyển động liên tiếp, tạo ra các chuyển động mượt mà */
+@keyframes modalFadeIn {
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* kiểm tra dữ liệu trong form */
+
+#form__signup .loi { 
+    border: 1px solid red;  
+    font-size: 16px;
+    border-radius: 4px;
+    width: 100%;
+    padding: 15px;
+}  
+
+#baoloi {
+    color: red;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.input > p {
+    margin-bottom: -10px;
+}
+
+
+#btn__next:hover {
+    background-color: #199427;
+}
