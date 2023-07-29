@@ -2,7 +2,7 @@
 export default [
     {
         id: 1,
-        img: '../img/San_pham_noi_bat/Avatar-SP-Web(1)(1)-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered(3).jpg',
+        img: './img/San_pham_noi_bat/Avatar-SP-Web(1)(1)-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered(3).jpg',
         text: 'Nước Cân Bằng Klairs Supple Preparation',
         pr_sales: '260,000₫',
         price: '306,000₫',
@@ -10,7 +10,7 @@ export default [
     },
     {
         id: 2,
-        img: '../img/San_pham_noi_bat/Kem-chống-nắng-Heliocare-360-Protector-Solar-Mineral-Tolerance-Fluid-Sunscreen-SPF50-50ml.jpg',
+        img: './img/San_pham_noi_bat/Kem-chống-nắng-Heliocare-360-Protector-Solar-Mineral-Tolerance-Fluid-Sunscreen-SPF50-50ml.jpg',
         text: "Kem Chống Nắng Heliocare 360 Protector...",
         pr_sales: '470,000₫',
         price: '540,000₫',
@@ -18,7 +18,7 @@ export default [
     },
     {
         id: 3,
-        img: '../img/San_pham_noi_bat/Kem-chống-nắng-Heliocare-360-Protector-Solar-Water-Gel-Sunscreen-SPF50.jpg',
+        img: './img/San_pham_noi_bat/Kem-chống-nắng-Heliocare-360-Protector-Solar-Water-Gel-Sunscreen-SPF50.jpg',
         text: "Kem Chống Nắng Heliocare 360 Protector...",
         pr_sales: '490,000₫',
         price: '543,000₫',
@@ -26,7 +26,7 @@ export default [
     },
     {
         id: 4,
-        img: '../img/San_pham_noi_bat/Kem-Dưỡng-Da-Obagi-Medical-Retinol-1_0-Cream.jpg',
+        img: './img/San_pham_noi_bat/Kem-Dưỡng-Da-Obagi-Medical-Retinol-1_0-Cream.jpg',
         text: "Kem Dưỡng Da Obagi Medical Retinol 1.0 Cream ",
         pr_sales: '1,190,000₫',
         price: '1,412,000₫',
@@ -34,7 +34,7 @@ export default [
     },
     {
         id: 5,
-        img: '../img/San_pham_noi_bat/Avatar-SP-Web(1)(1)-Recovered(29).jpg',
+        img: './img/San_pham_noi_bat/Avatar-SP-Web(1)(1)-Recovered(29).jpg',
         text: "Dung Dịch Loại Bỏ Mụn Obagi Medical Salicylic...",
         pr_sales: '650,000₫',
         price: '802,000₫',
@@ -42,7 +42,7 @@ export default [
     },
     {
         id: 6,
-        img: '../img/San_pham_noi_bat/Obagi-Medical-C-Clarifying-Serum.jpg',
+        img: './img/San_pham_noi_bat/Obagi-Medical-C-Clarifying-Serum.jpg',
         text: "Tinh Chất Obagi Medical C - Rx C - Clarifying",
         pr_sales: '2,200,000₫',
         price: '2,220,000₫',
@@ -50,7 +50,7 @@ export default [
     },
     {
         id: 7,
-        img: '../img/San_pham_noi_bat/Kem-dưỡng-trẻ-hóa-và-săn-chắc-vùng-da-cổ-Medi-Peel-Naite-Thread-Neck-Cream-100ml.jpg',
+        img: './img/San_pham_noi_bat/Kem-dưỡng-trẻ-hóa-và-săn-chắc-vùng-da-cổ-Medi-Peel-Naite-Thread-Neck-Cream-100ml.jpg',
         text: "Kem Dưỡng Trẻ Hóa Và Săn Chắc Vùng Da Cổ...",
         pr_sales: '280,000₫',
         price: '304,000₫',
