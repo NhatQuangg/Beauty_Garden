@@ -13,6 +13,13 @@
 }
 
 
+.popup-gallery {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    display: inline-block;
+    transform: translate(-50%,-50%) ;
+}
 
 .row-detail {
     display: grid;
@@ -21,9 +28,10 @@
     gap: 23px;
 }
 
-.box-thumnail-detail img {
-    width: 100px;
-    height: 100px;
+.popup-gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .row-detail-child {
