@@ -1,5 +1,4 @@
 
-@ -0,0 +1,25 @@
 // Kiểm tra xem trang đã được tải hoàn toàn (DOM đã sẵn sàng)
 document.addEventListener('DOMContentLoaded', function () {
     // Lấy thẻ có class="number-card"

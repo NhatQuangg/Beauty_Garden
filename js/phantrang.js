@@ -1,4 +1,4 @@
-@@ -0,0 +1,73 @@
+
 let thisPage = 1;
 let limit = 24;
 let list = document.querySelectorAll('.content-grid .make-up-item');

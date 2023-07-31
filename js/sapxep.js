@@ -1,4 +1,4 @@
-@ -0,0 +1,16 @@
+
 window.sortingPrice = function() {
     let valueSelect = document.querySelector(".sort-btn-right").value;
 
