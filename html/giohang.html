@@ -20,6 +20,8 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
     />
+    <link rel="stylesheet" href="../css/responsive_trangchu.css">
+    <link rel="stylesheet" href="../css/responsive_giohang.css">
 </head>
 <body>
     <div id="app">
@@ -59,7 +61,7 @@
                     <div class="box-hotline"> 
                         <ul class="ul-hotline">
                             <li class="li-regions">
-                                <a href="#" class="just-hl">
+                                <a href="#" class="just-hl respin-regions">
                                     <span>Miền trung</span>
                                     <i class="fa-solid fa-chevron-down text-sm"></i>
                                 </a>
@@ -87,8 +89,8 @@
                                     <i class="fa-solid fa-chevron-down text-sm"></i>
                                 </a>
                                 <ul class="login-out ul-login">
-                                    <li><a href="#">Đăng nhập</a></li>
-                                    <li><a href="#">Đăng kí</a></li>
+                                    <li class="js__signin"><a href="#">Đăng nhập</a></li>
+                                    <li class=""><a href="../html/dangki.html" >Đăng kí</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -114,7 +116,7 @@
                             </div>
                         </div>
                         <div class="box-logo">
-                            <a href="/html/index.html">
+                            <a href="/index.html">
                                 <img src="../img/head2_logo.png" alt="">
                             </a>
                         </div>
@@ -128,7 +130,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="" class="shop-cart" title="Giỏ hàng">
+                                    <a href="#" class="shop-cart" title="Giỏ hàng">
                                         <i class="fa-solid fa-cart-shopping"></i>
                                         Giỏ hàng
                                         <span class="number-card">0</span>
@@ -141,62 +143,65 @@
             </div>
 
             <!-- Head Third -->
-            <div class="head-third" id="idhead-third">
-                <div class="container">
-                    <div class="grid-third">
-                        <ul class="ul-menu">
-                            <li class="li-parent menu-1">
-                                <a href="../trangdiem.html" class="a-parent">
-                                    Trang điểm
-                                    
-                                </a>
-                            </li>
-                            <li class="li-parent menu-2">
-                                <a href="" class="a-parent">
-                                    Chăm sóc da
-                                    
-                                </a>
-                            </li>
-                            <li class="li-parent menu-3">
-                                <a href="" class="a-parent">
-                                    Chăm sóc tóc
-                                    
-                                </a>
-                            </li>
-                            <li class="li-parent menu-4">
-                                <a href="" class="a-parent">
-                                    Phụ kiện
-                                    
-                                </a>
-                            </li>
-                            <li class="li-parent menu-5">
-                                <a href="" class="a-parent">
-                                    Nước hoa
-                                    
-                                </a>
-                            </li>
-                            <li class="li-parent menu-6">
-                                <a href="" class="a-parent">
-                                    Chăm sóc toàn thân
-                                    
-                                </a>
-                            </li>
-                            <li class="li-parent menu-7">
-                                <a href="" class="a-parent">
-                                    Khuyến mãi
-                                    
-                                </a>
-                            </li>
-                            <li class="li-parent menu-8">
-                                <a href="" class="a-parent">
-                                    Thương hiệu
-    
-                                </a>
-                            </li>
-                        </ul>
+            <nav id="idhead-third">
+                <div class="head-third" >
+                    <div class="container">
+                        <i class="btn-bar menu-icon fa-solid fa-bars"></i>
+                        <div class="grid-third">
+                            <div class="sidebar">
+                                <div class="sidebar-content">
+                                    <ul class="ul-menu">
+                                        <i class="btn-bar menu-icon fa-solid fa-xmark"></i>
+                                        <li class="li-parent menu-1">
+                                            <a href="../html/trangdiem.html" class="a-parent">
+                                                Trang điểm                                
+                                            </a>
+                                        </li>
+                                        <li class="li-parent menu-2">
+                                            <a href="" class="a-parent">
+                                                Chăm sóc da                                
+                                            </a>
+                                        </li>
+                                        <li class="li-parent menu-3">
+                                            <a href="" class="a-parent">
+                                                Chăm sóc tóc                                
+                                            </a>
+                                        </li>
+                                        <li class="li-parent menu-4">
+                                            <a href="" class="a-parent">
+                                                Phụ kiện                                
+                                            </a>
+                                        </li>
+                                        <li class="li-parent menu-5">
+                                            <a href="" class="a-parent">
+                                                Nước hoa                                
+                                            </a>
+                                        </li>
+                                        <li class="li-parent menu-6">
+                                            <a href="" class="a-parent">
+                                                Chăm sóc toàn thân                                
+                                            </a>
+                                        </li>
+                                        <li class="li-parent menu-7">
+                                            <a href="" class="a-parent">
+                                                Khuyến mãi                                
+                                            </a>
+                                        </li>
+                                        <li class="li-parent menu-8">
+                                            <a href="" class="a-parent">
+                                                Thương hiệu
+                                            </a>
+                                        </li>
+        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+
+            </nav>
+            <section class="overlay"></section>
         </header>
 
         <main>
@@ -230,6 +235,9 @@
                                 <div class="title-4">
                                     <h5>Thành tiền</h5>
                                 </div>
+                                <!-- <div class="title-4">
+                                    <h5></h5>
+                                </div> -->
                             </div>
                             <div class="shopping-cart-item">
                                 <div class="row-cart-item">
@@ -430,16 +438,16 @@
                                 <form action="" class="form-discount">
                                     <input type="text" placeholder="Vui lòng nhập email..." class="input-discount i-discount">
                                     <button>GỬI</button>
-                                    <span>LIÊN KẾT</span>
                                 </form>
+                                <span>LIÊN KẾT</span>
                                 <ul>
-                                    <li>
+                                    <li class="li-brandd">
                                         <a href="" class="a-fb"><i class="fa-brands fa-square-facebook"></i></a>
                                     </li>
-                                    <li>
+                                    <li class="li-brandd">
                                         <a href="" class="a-ig"><i class="fa-brands fa-square-instagram"></i></a>
                                     </li>
-                                    <li>
+                                    <li class="li-brandd">
                                         <a href="" class="a-pn"><i class="fa-brands fa-square-pinterest"></i></a>
                                     </li>
                                 </ul>
@@ -466,7 +474,7 @@
                         <div class="box-info">
                             <span>
                                 <a href="http://online.gov.vn/Home/WebDetails/38367" target="_blank">
-                                    <img src="../img/chứng nhận.png" alt="" class="img-certificate">
+                                    <img src="./img/chứng nhận.png" alt="" class="img-certificate">
                                 </a>
                             </span>
                         </div>
@@ -515,5 +523,6 @@
     <script src="../js/raise_number.js"></script>
     <!-- Magnific Popup core JS file -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="../js/sidebar.js"></script>
 </body>
 </html>

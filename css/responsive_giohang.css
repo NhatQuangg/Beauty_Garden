@@ -1,0 +1,52 @@
+/*
+    pc>=1024px
+    tablet >=740px & < 1024px
+    mobile <740px
+*/
+
+/*pc*/
+
+@media (min-width :1024px){
+
+}
+
+/* mobile + tablet */
+@media (max-width :1024px){
+    .row-titles {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .row-left {
+        order: 2;
+    }
+    .row-right {
+        order: 1;
+        margin-left: -15px;
+    }
+}
+
+/*tablet*/
+
+@media (min-width :740px) and (max-width :1023px){
+
+}
+
+/*mobile*/
+
+@media (max-width :739px){
+    .title-2 {
+        display: none;
+    }
+    .title-3 {
+        display: none;
+        
+    }
+    .title-4 {
+        display: none;
+        
+    }
+    .row-cart-item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

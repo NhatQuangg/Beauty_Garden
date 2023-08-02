@@ -1,0 +1,41 @@
+/*
+    pc>=1024px
+    tablet >=740px & < 1024px
+    mobile <740px
+*/
+
+/*pc*/
+
+@media (min-width :1024px){
+
+}
+
+/* mobile + tablet */
+@media (max-width :1024px){
+    .row-content {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .category-first {
+        display: none;
+    }
+
+}
+
+/*tablet*/
+
+@media (min-width :740px) and (max-width :1023px){
+    .content-main .content-grid {
+        display: grid;
+        grid-template-columns: repeat(3,31%);
+    }
+}
+
+/*mobile*/
+
+@media (max-width :739px){
+    .content-main .content-grid {
+        display: grid;
+        grid-template-columns: repeat(2,46%);
+    }
+}
