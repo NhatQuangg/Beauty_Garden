@@ -1,7 +1,7 @@
 
-import data from './add_data_detail/products_detail.js';
-import {data2} from './add_data_detail/products_detail.js';
-import {data3} from './add_data_detail/products_detail.js';
+import data from '../add_data_detail/products_detail.js';
+import {data2} from '../add_data_detail/products_detail.js';
+import {data3} from '../add_data_detail/products_detail.js';
 
 const products1 = document.querySelector(".body-box-detail");
 const products2 = document.querySelector(".body-box-detail-2");

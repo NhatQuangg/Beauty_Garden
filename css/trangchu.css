@@ -210,6 +210,10 @@ a {
 }
 
 /* -------------------------------- */
+header {
+    position: relative;
+    z-index: 99;
+}
 
 .head-second {
     /* height: 108px; */
