@@ -6,7 +6,7 @@ export default [
         text: 'Nước Cân Bằng Klairs Supple Preparation',
         pr_sales: '260,000₫',
         price: '306,000₫',
-        link: "./html/chitietsp1.html",
+        link: "./chitietsp1.html",
     },
     {
         id: 2,

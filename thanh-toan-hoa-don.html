@@ -4,24 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/trangchu.css">
-    <link rel="stylesheet" href="../css/trangdiem.css">
-    <link rel="stylesheet" href="../css/phantrang.css">
-    <link rel="stylesheet" href="../css/giohang.css">
-    <link rel="stylesheet" href="../fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/trangchu.css">
+    <link rel="stylesheet" href="./css/trangdiem.css">
+    <link rel="stylesheet" href="./css/phantrang.css">
+    <link rel="stylesheet" href="./css/giohang.css">
+    <link rel="stylesheet" href="./css/thanhtoanhoadon.css">
+    <link rel="stylesheet" href="./css/dangnhap.css">
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.4.0-web/css/all.min.css">
     <link
         rel="stylesheet"
         type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
       />
-
-    <!-- Magnific Popup core CSS file -->
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
-    />
-    <link rel="stylesheet" href="../css/responsive_trangchu.css">
-    <link rel="stylesheet" href="../css/responsive_giohang.css">
+      <link rel="stylesheet" href="./css/responsive_trangchu.css">
+      <link rel="stylesheet" href="./css/responsive_thanhtoan.css">
 </head>
 <body>
     <div id="app">
@@ -90,7 +86,7 @@
                                 </a>
                                 <ul class="login-out ul-login">
                                     <li class="js__signin"><a href="#">Đăng nhập</a></li>
-                                    <li class=""><a href="../html/dangki.html" >Đăng kí</a></li>
+                                    <li class=""><a href="./dangki.html" >Đăng kí</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -117,7 +113,7 @@
                         </div>
                         <div class="box-logo">
                             <a href="/index.html">
-                                <img src="../img/head2_logo.png" alt="">
+                                <img src="./img/head2_logo.png" alt="">
                             </a>
                         </div>
                         <div class="box-card">
@@ -130,7 +126,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="shop-cart" title="Giỏ hàng">
+                                    <a href="./giohang.html" class="shop-cart" title="Giỏ hàng">
                                         <i class="fa-solid fa-cart-shopping"></i>
                                         Giỏ hàng
                                         <span class="number-card">0</span>
@@ -153,7 +149,7 @@
                                     <ul class="ul-menu">
                                         <i class="btn-bar menu-icon fa-solid fa-xmark"></i>
                                         <li class="li-parent menu-1">
-                                            <a href="../html/trangdiem.html" class="a-parent">
+                                            <a href="./trangdiem.html" class="a-parent">
                                                 Trang điểm                                
                                             </a>
                                         </li>
@@ -209,111 +205,273 @@
                 <div class="container">
                     <ol class="ol-bracum">
                         <li>
-                            <a href="../index.html">Trang chủ</a>
+                            <a href="./index.html">Trang chủ</a>
                         </li>
                         <li>
-                            <a href="">Giỏ hàng</a>
+                            <a href="#">Thanh Toán Đơn Hàng</a>
                         </li>
                     </ol>
                 </div>
             </div>
-            <!-- gio hang -->
-            <div class="">
+            <!-- thanh toan hoa don -->
+            <div class="thanh-toan">
                 <div class="container">
-                    <div class="row-titles">
-                        <div class="row-left">
-                            <div class="title">
-                                <div class="title-1">
-                                    <span class="cart-index">Giỏ hàng (2 sản phẩm)</span>
+                    <div class="payment-order">
+                        <div class="payment-left">
+                            <h2 class="h2-fiead">Địa chỉ nhận hàng</h2>
+                            <form action="">
+                                <div class="form-flex form-flex-group form-flex-mobi">
+                                    <label for="" class="label-form">
+                                        <b>Họ tên</b>
+                                    </label>
+                                    <div class="div-form" >
+                                        <input type="text" placeholder="VD: Nguyễn Văn A (*)">
+                                    </div>
                                 </div>
-                                <div class="title-2">
-                                    <h5>Giá mua</h5>
+                                <div class="form-flex form-flex-group form-flex-mobi">
+                                    <label for="" class="label-form">
+                                        <b>Số điện thoại</b>
+                                    </label>
+                                    <div class="div-form">
+                                        <input type="text" placeholder="VD: 0909 099 099 (*)">
+                                    </div>
                                 </div>
-                                <div class="title-3">
-                                    <h5>Số lượng</h5>
+                                <div class="form-flex form-flex-group form-flex-mobi">
+                                    <label for="" class="label-form">
+                                        <b>Email</b>
+                                    </label>
+                                    <div class="div-form">
+                                        <input type="text" placeholder="VD: nguyenvana@gmail.com">
+                                    </div>
                                 </div>
-                                <div class="title-4">
-                                    <h5>Thành tiền</h5>
+                                <div class="form-flex form-flex-group form-flex-mobi">
+                                    <label for="" class="label-form">
+                                        <b>Tỉnh/Thành phố</b>
+                                    </label>
+                                    <div class="div-form">
+                                        <select name="" id="" class="txt-2">
+                                            <option value="">Chọn tỉnh thành phố</option>
+                                            <option value="76">An Giang</option>
+                                            <option value="64">Bà Rịa Vũng Tàu</option>
+                                            <option value="281">Bắc Cạn</option>
+                                            <option value="240">Bắc Giang</option>
+                                            <option value="781">Bạc Liêu</option>
+                                            <option value="241">Bắc Ninh</option>
+                                            <option value="75">Bến Tre</option>
+                                            <option value="650">Bình Dương</option>
+                                            <option value="651">Bình Phước</option>
+                                            <option value="62">Bình Thuận</option>
+                                            <option value="56">Bình Định</option>
+                                            <option value="78">Cà Mau</option>
+                                            <option value="71">Cần Thơ</option>
+                                            <option value="26">Cao Bằng</option>
+                                            <option value="59">Gia Lai</option>
+                                            <option value="19">Hà Giang</option>
+                                            <option value="351">Hà Nam</option>
+                                            <option value="4">Hà Nội</option>
+                                            <option value="34">Hà Tây</option>
+                                            <option value="39">Hà Tỉnh</option>
+                                            <option value="320">Hải Dương</option>
+                                            <option value="31">Hải Phòng</option>
+                                            <option value="18">Hòa Bình</option>
+                                            <option value="321">Hưng Yên</option>
+                                            <option value="58">Khánh Hòa</option>
+                                            <option value="77">Kiên Giang</option>
+                                            <option value="60">Kon Tum</option>
+                                            <option value="23">Lai Châu</option>
+                                            <option value="63">Lâm Đồng</option>
+                                            <option value="25">Lạng Sơn</option>
+                                            <option value="20">Lào Cai</option>
+                                            <option value="72">Long An</option>
+                                            <option value="350">Nam Định</option>
+                                            <option value="38">Nghệ An</option>
+                                            <option value="30">Ninh Bình</option>
+                                            <option value="68">Ninh Thuận</option>
+                                            <option value="901">Nơi khác</option>
+                                            <option value="210">Phú Thọ</option>
+                                            <option value="57">Phú Yên</option>
+                                            <option value="52">Quảng Bình</option>
+                                            <option value="510">Quảng Nam</option>
+                                            <option value="55">Quảng Ngãi</option>
+                                            <option value="33">Quảng Ninh</option>
+                                            <option value="53">Quảng Trị</option>
+                                            <option value="79">Sóc Trăng</option>
+                                            <option value="22">Sơn La</option>
+                                            <option value="66">Tây Ninh</option>
+                                            <option value="36">Thái Bình</option>
+                                            <option value="280">Thái Nguyên</option>
+                                            <option value="37">Thanh Hóa</option>
+                                            <option value="54">Thừa Thiên Huế</option>
+                                            <option value="73">Tiền Giang</option>
+                                            <option value="8">TP.HCM</option>
+                                            <option value="74">Trà Vinh</option>
+                                            <option value="27">Tuyên Quang</option>
+                                            <option value="70">Vĩnh Long</option>
+                                            <option value="211">Vĩnh Phúc</option>
+                                            <option value="29">Yên Bái</option>
+                                            <option value="511">Đà Nẵng</option>
+                                            <option value="50">Đắc Lắc</option>
+                                            <option value="1042">Đắc Nông</option>
+                                            <option value="900">Điện Biên</option>
+                                            <option value="61">Đồng Nai</option>
+                                            <option value="67">Đồng Tháp</option>
+                                        </select>
+                                    </div>
                                 </div>
-                                <!-- <div class="title-4">
-                                    <h5></h5>
-                                </div> -->
-                            </div>
-                            <div class="shopping-cart-item">
-                                <div class="row-cart-item">
-                                    <div class="img-thumnail">
-                                        <div class="image">
-                                            <a href=""><img src="../img/San_pham_noi_bat/Kem-chống-nắng-Heliocare-360-Protector-Solar-Mineral-Tolerance-Fluid-Sunscreen-SPF50-50ml.jpg" alt=""></a>
+                                <div class="form-flex form-flex-group form-flex-mobi">
+                                    <label for="" class="label-form">
+                                        <b>Quận/Huyện</b>
+                                    </label>
+                                    <div class="div-form">
+                                        <select name="" id="">
+                                            <option value="">Chọn quận huyện</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-flex form-flex-group form-flex-mobi">
+                                    <label for="" class="label-form">
+                                        <b>Địa chỉ</b>
+                                    </label>
+                                    <div class="div-form">
+                                        <textarea name="" id="" cols="30" rows="10" placeholder="Số nhà, đường, phường xã..."></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-flex form-flex-group form-flex-mobi">
+                                    <label for="" class="label-form">
+                                        <b>Ghi chú</b>
+                                    </label>
+                                    <div class="div-form">
+                                        <textarea name="" id="" cols="30" rows="10" placeholder="VD: Giao hàng vào buổi chiều"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form_pc" action="">
+                                    <div class="form-flex form-flex-group">
+                                        <div class="flex-check">
+                                            <input type="checkbox">
+                                        </div>
+                                        <p>
+                                            Tôi đồng ý với các điều kiện giao dịch (
+                                            <a href="">Thanh toán & vận chuyển</a>,
+                                            <a href="">Đổi trả hàng</a>) và
+                                            <a href="">Chính sách thông tin cá nhân</a>
+                                        </p>
+                                    </div>
+                                    <div class="form-flex form-flex-group">
+                                        <div class="btn-1">
+                                            <a href="./giohang.html">quay lại giỏ hàng</a>
+                                        </div>
+                                        <div class="btn-2">
+                                            <button>thanh toán</button>
                                         </div>
                                     </div>
-                                    <div class="cart-title">
-                                        <div class="name">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="payment-right">
+                            <div class="order">
+                                <h2 class="title-secres">
+                                    GIỎ HÀNG
+                                </h2>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <figure>
                                             <a href="">
-                                                Kem Chống Nắng Heliocare 360 Protector Solar Mineral Tolerance Fluid SPF50 50ml</a>
+                                                <img src="./img/San_pham_noi_bat/Kem-chống-nắng-Heliocare-360-Protector-Solar-Mineral-Tolerance-Fluid-Sunscreen-SPF50-50ml.jpg" alt="">
+                                            </a>
+                                        </figure>
+                                        <div class="list_content">
+                                            <h5>
+                                                <a href="">
+                                                    <span>
+                                                        Kem Chống Nắng Heliocare 360 Protector Solar Mineral Tolerance Fluid SPF50 50ml
+                                                    </span>
+                                                </a>
+                                            </h5>
+                                            <div class="quantity-item">                                                
+                                                <span class="amount">
+                                                    <span class="money">
+                                                        <span>3 x</span>
+                                                        490,000₫
+                                                    </span>
+                                                    <span class="money-goc">543,000₫</span>
+                                                </span>
+                                                <div class="tongsp">1,470,000₫</div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="left-price">
-                                        <div class="">
-                                            <span class="price-sales">490,000₫</span>
-                                            <span class="price">543,000₫</span>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <a href="">
+                                                <img src="./img/San_pham_noi_bat/Avatar-SP-Web(1)(1)-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered(3).jpg" alt="">
+                                            </a>
+                                        </figure>
+                                        <div class="list_content">
+                                            <h5>
+                                                <a href="./chitietsp1.html">Kem Chống Nắng Heliocare 360 Protector Solar Mineral Tolerance Fluid SPF50 50ml</a>
+                                            </h5>
+                                            <div class="quantity-item">
+                                                <span class="amount">                                                     
+                                                    <span class="money">
+                                                        <span>5 x</span>
+                                                        260,000₫
+                                                    </span>
+                                                    <span class="money-goc">306,000₫</span>
+                                                </span>
+                                                <div class="tongsp">1,300,000₫</div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="quantity">
-                                        <input type="number" value="3" min="1" max="99">
-                                    </div>
-                                    <div class="total">
-                                        <p class="price-sales">1,470,000₫</p>
+                                        <div class="clr"></div>
+                                    </li>
+                                </ul>
+                                <div class="load-lead">
+                                    <div class="box-coupon">
+                                        <p>
+                                            <small>Tạm tính:</small>
+                                            <span>2,770,000₫</span>
+                                        </p>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="shopping-cart-item">
-                                <div class="row-cart-item">
-                                    <div class="img-thumnail">
-                                        <div class="image">
-                                            <a href="../chitietsp1.html"><img src="../img/San_pham_noi_bat/Avatar-SP-Web(1)(1)-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered-Recovered(3).jpg" alt=""></a>
-                                        </div>
+                                <div class="load-ship">
+                                    <div class="box-coupon">
+                                        <p>
+                                            <small>Phí vận chuyển</small>
+                                            <span>Chưa xác định!</span>
+                                        </p>
                                     </div>
-                                    <div class="cart-title">
-                                        <div class="name">
-                                            <a href="../chitietsp1.html">
-                                                Nước Cân Bằng Klairs Supple Preparation</a>
-                                        </div>
-                                    </div>
-                                    <div class="left-price">
-                                        <div class="">
-                                            <span class="price-sales">260,000₫</span>
-                                            <span class="price">306,000₫</span>
-                                        </div>
-                                    </div>
-                                    <div class="quantity">
-                                        <input type="number" value="5" min="1" max="99">
-                                    </div>
-                                    <div class="total">
-                                        <p class="price-sales">1,300,000₫</p>
-                                    </div>
+                                </div>
+                                <div class="subtotal">
+                                    <h4>Thành tiền</h4>
+                                    <span>
+                                        <strong>1,920,000₫</strong>
+                                    </span>
+                                </div>
+                                <div class="note">
+                                    <span>* Những sản phẩm khuyến mãi sẽ không được hỗ trợ Freeship</span>
+                                    <span>* Phương thức thanh toán: Nhận hàng & thanh toán tiền mặt tại nhà</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="row-right">
-                            <div class="fee">
-                                <div class="panel-body">
-                                    <p class="list-info-price">
-                                        <b>Tạm tính</b>
-                                        <span>2,770,000₫</span>
-                                    </p>
-                                    <div class="total2">
-                                        Thành tiền
-                                        <span>2,770,000₫ </span>
-                                    </div>
-                                    <div class="txt-small">
-                                        <i>(Chưa bao gồm phí vận chuyển)</i>
-                                    </div>
+                        <form class="respon_form" action="" style="margin-top: 15px;">
+                            <div class="form-flex form-flex-group" >
+                                <div class="flex-check">
+                                    <input type="checkbox">
+                                </div>
+                                <p>
+                                    Tôi đồng ý với các điều kiện giao dịch (
+                                    <a href="">Thanh toán & vận chuyển</a>,
+                                    <a href="">Đổi trả hàng</a>) và
+                                    <a href="">Chính sách thông tin cá nhân</a>
+                                </p>
+                            </div>
+                            <div class="form-flex form-flex-group">
+                                <div class="btn-1">
+                                    <a href="./giohang.html">quay lại giỏ hàng</a>
+                                </div>
+                                <div class="btn-2">
+                                    <button>thanh toán</button>
                                 </div>
                             </div>
-                            <a href="../html/thanh-toan-hoa-don.html">
-                                <button class="btn-buy">Tiến hành đặt hàng</button>
-                            </a>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -484,6 +642,35 @@
         </footer>
     </div>
 
+    <!-- Form đăng nhập -->
+    <form id="form__signin" class="modal js__modal__dn" onsubmit="return kiemtra()">
+        <div class="modal__container js__modal__container__dn">
+            <div class="modal__close js__modal__close__dn">
+                <i class="fa-sharp fa-solid fa-xmark"></i>
+            </div>
+            <header class="modal__header">
+                <div class="title__header">Đăng nhập</div>
+                <!-- <div class="text__header">Vui lòng nhập số điện thoại</div> -->
+            </header>
+            <div class="modal__body">
+                <div class="input">
+                    <label for="">Địa chỉ email / Số điện thoại *</label>
+                    <input id="number__phone" type="text" class="modal__input" placeholder="Nhập email / số điện thoại">
+                </div>
+                <div class="input input-last">
+                    <label for="">Mật khẩu</label>
+                    <input id="number__phone" type="password" class="modal__input" placeholder="Mật khẩu">
+                </div>
+                <button id="btn__next">
+                    Đăng nhập
+                    <!-- <i class="fa-sharp fa-solid fa-arrow-right"></i> -->
+                </button>
+            </div>
+            <footer class="modal__footer">
+
+            </footer>
+        </div>
+    </form> 
 
     <!-- Head third cố định -->
     <script>
@@ -515,14 +702,13 @@
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
 
-    <script src="../js/slider.js"></script>
-    <script type="module" src="../js/add_data/add_data_products.js"></script>
-    <script type="module" src="../js/add_data/add_data_selling.js"></script>
-    <script type="module" src="../js/add_data/add_highlight.js"></script>
-    <script type="module" src="../js/add_data/add_feedback.js"></script>
-    <script src="../js/raise_number.js"></script>
-    <!-- Magnific Popup core JS file -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-    <script src="../js/sidebar.js"></script>
+    <script src="./js/slider.js"></script>
+    <script type="module" src="./js/add_data/add_data_products.js"></script>
+    <script type="module" src="./js/add_data/add_data_selling.js"></script>
+    <script type="module" src="./js/add_data/add_highlight.js"></script>
+    <script type="module" src="./js/add_data/add_feedback.js"></script>
+    <script src="./js/raise_number.js"></script>
+    <script src="./js/dangnhap.js"></script>
+    <script src="./js/sidebar.js"></script>
 </body>
 </html>
