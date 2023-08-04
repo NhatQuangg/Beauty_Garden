@@ -392,6 +392,31 @@ header {
     font-size: 20px;
 }
 
+.btn-home {
+    /* border: 1px solid #000; */
+    border-radius:  5px;
+    padding: 10px 10px;
+    margin-right: 10px;
+    background-color: var(--green-list);
+    color: white;
+    font-weight: 600;
+    display: none;
+}
+.btn-home a{
+    color: white;
+    font-weight: 600;
+}
+.btn-barr {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #459429;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+} 
+
 /*----------------------------------- */
 #idhead-third {
     z-index: 98;

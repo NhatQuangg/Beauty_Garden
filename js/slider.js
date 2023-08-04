@@ -197,6 +197,21 @@ $(document).ready(function(){
         // autoplaySpeed: 1500,
         prevArrow:"<button type='button' class='slick-prev-product slick-arrow-product'><i class='fa-solid fa-angle-left'></i></button>",
         nextArrow:"<button type='button' class='slick-next-product slick-arrow-product'><i class='fa-solid fa-angle-right'></i></button>",
+
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+            }
+          },
+          {
+            breakpoint: 740,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+      ]
     });
   });
 
@@ -212,6 +227,21 @@ $(document).ready(function(){
         // autoplaySpeed: 1500,
         prevArrow:"<button type='button' class='slick-prev-product slick-arrow-product'><i class='fa-solid fa-angle-left'></i></button>",
         nextArrow:"<button type='button' class='slick-next-product slick-arrow-product'><i class='fa-solid fa-angle-right'></i></button>",
+
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+            }
+          },
+          {
+            breakpoint: 740,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+      ]
     });
   });
     // sản phẩm cùng loại
@@ -225,5 +255,20 @@ $(document).ready(function(){
         // autoplaySpeed: 1500,
         prevArrow:"<button type='button' class='slick-prev-product slick-arrow-product'><i class='fa-solid fa-angle-left'></i></button>",
         nextArrow:"<button type='button' class='slick-next-product slick-arrow-product'><i class='fa-solid fa-angle-right'></i></button>",
+
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+            }
+          },
+          {
+            breakpoint: 740,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+      ]
     });
   });  

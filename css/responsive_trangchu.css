@@ -8,7 +8,10 @@
 
 @media (min-width :1024px){
     .btn-bar {
-        display: none   ;
+        display: none;
+    }
+    .btn-barr {
+        display: none;
     }
 }
 
@@ -17,11 +20,16 @@
     .btn-bar {
         display: block;
     }
+    .btn-home {
+        display: block;
+    }
     .ul-menu {
         /* display: block; */
     }
     .head-third .container {
-        /* background-color: #000; */
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     /* btn */
@@ -106,6 +114,9 @@
       }
 
     /* ahha */
+    .footer-second .img-certificate {
+        max-width: 50%;
+    }
 }
 
 /*tablet*/
