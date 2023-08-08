@@ -60,7 +60,7 @@ console.log(products);
                     <span class="price-sales">${pr_sales}</span>
                     <span class="price">${price}</span>
                 </div>
-                <div class="icon-heart" id="heart-click">
+                <div class="icon-heart">
                         <i class="fa-regular fa-heart i-heart"></i>
                 </div>
             </div>
